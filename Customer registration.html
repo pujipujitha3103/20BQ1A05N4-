@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Customer Registration</title>
+    </head>
+    <body>
+        <center>
+            <h2>Customer Registration</h2>
+            <form>
+                Username:<Input type="text" placeholder="uname" maxlength="15" required-pattern="[A-Z a-z 0-9]"/>
+                <br><br>
+                Password:<input type="'text" placeholder="Pwd" minlength="8" maxlength="12" required pattern="[A-Z a-Z 0-9]"/>
+                <br><br>
+                <label>E-mail:</label>
+                <input type="e-mail" required/>
+                <br><br>
+                Gender:<Input type="radio" name="gender">Male
+                    <Input type="radio" name="gender">Female
+                    <Input type="radio" name="gender">others
+                        <br><br>
+                        Age(yrs):<Input type="number" required minage="12" maxage="60">
+                            <br><br>
+                            <label>Address:</label>
+                            <textarea row="40" col="80" required maxlength="100"></textarea>
+                            <h2>Company website</h2>
+                            <label>Choose country:</label>
+                            <Select>
+                                <Option name="ind">India</Option>
+                                <Option name="Ger">Germany</Option>
+                                <Option name="Jap">Japan</Option>
+                            </Select>
+                            <br><br>
+                            <label>Date of journey:</label>
+                            <Input type="date">
+                                <br><br>
+                                <Input type="button" value="Submit">
+                                    <Input type="button" value="reset">
+            </form>
+        </center>
+    </body>
+</html>
