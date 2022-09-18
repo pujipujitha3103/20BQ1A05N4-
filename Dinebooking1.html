@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Dinebooking</title>
+    </head>
+    <body>
+        <center>
+            <h1>Dine booking</h1>
+            <form>
+                <label>Visitor Name:</label>
+                <input type="text" maxlength="80" pattern="[a-z,A-Z,0-9]"/>
+                <br><br>
+                <label>Number Of Members:</label>
+                <input type="number" maxlength="2" pattern="[0-9]"/>
+                <br><br>
+                <label>Contact No:</label>
+                <input type="number" maxlength="10" pattern"[0-9]"/>
+                <br><br>
+                <label>E-mail:</label>
+                <input type="e-mail"/><br><br>
+                <label>Type Of Food:</label>
+                <input type="checkbox" name="food1">SouthIndian
+                <input type="checkbox" name="food2">NorthIndian
+                <input type="checkbox" name="food3">Chinese
+                <input type="checkbox" name="food4">Western
+                <br>
+                <br>
+                <label>Room status:</label>
+                <input type="radio" name="room status">AC
+                <input type="radio" name="room status">NON-AC
+                <br>
+                <br>
+                <label>Venue Preference:</label>
+                <Select>
+                    <Option name="Arena">Arena</Option>
+                    <Option name="Fiesta">Fiesta</Option>
+                    <Option name="Vista">Vista</Option>
+                    <Option name="Mythri">Mythri</Option>
+                    <Option name="Magna">Magna</Option>
+                    <Option name="Oasis"></Option>
+                    <Option name="Amoeba"></Option>
+                </Select>
+                <br><br>
+                <input type="Submit" Value="Book"/>
+                <input type="button" Value="Reset"/>
+            </form>
+    </body>
+</html>
